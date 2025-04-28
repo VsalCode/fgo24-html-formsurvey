@@ -6,67 +6,70 @@
     <title>Form Survey</title>
   </head>
   <body>
-    <form action="">
-      <div>
-        <label for="fullName">FullName</label> <br />
-        <input type="text" name="fullName" id="fullName" placeholder="masukkan nama lengkap" required />
-      </div>
-      <br />
-      <div>
-        <label for="email">Email</label> <br />
-        <input type="text" name="email" id="email" placeholder="masukkan email" autocomplete="off" required />
-      </div>
-      <br />
-      <div>
-        <label for="password">Password</label> <br />
-        <input type="password" name="password" id="password" placeholder="masukkan password" required />
-      </div>
-      <br />
-      <div>
-        <label for="birthDate">Tanggal Lahir</label>
-        <input type="date" id="birthDate" name="birthDate" />
-      </div>
-      <br />
-      <div>
-        <input type="radio" name="gender" value="men" id="gender1" />
-        <label for="gender1">Laki-Laki</label>
-        <input type="radio" name="gender" value="women" id="gender2" />
-        <label for="gender2">Perempuan</label>
-      </div>
-      <br />
-      <div>
-        <p>Apakah anda seorang perokok</p>
+    <div>
+      <form action="">
         <div>
-          <input type="radio" name="smoker" value="smoker" id="smoker" />
-          <label for="smoker">ya</label>
-          <input type="radio" name="smoker" value="notSmoker" id="notSmoker" />
-          <label for="notSmoker">tidak</label>
-          <input type="radio" name="smoker" value="exSmoker" id="exSmoker" />
-          <label for="exSmoker">mantan perokok</label>
+          <label for="fullName">FullName</label> <br />
+          <input type="text" name="fullName" id="fullName" placeholder="masukkan nama lengkap" required />
         </div>
-      </div>
-      <br />
-      <div>
-        <p>Jika anda perokok, rokok apa yang sering anda gunakkan? atau yang anda sering dengar</p>
+        <br />
         <div>
-          <input type="checkbox" id="gudangGaram" name="cigarette" checked />
-          <label for="gudangGaram">Gudang Garam</label>
-          <input type="checkbox" id="sampoerna" name="cigarette" />
-          <label for="sampoerna">Sampoerna</label>
-          <input type="checkbox" id="Marlboro" name="cigarette" />
-          <label for="Marlboro">Marlboro</label>
-          <input type="checkbox" id="other" name="cigarette" />
-          <label for="other">yang lain</label>
+          <label for="email">Email</label> <br />
+          <input type="text" name="email" id="email" placeholder="masukkan email" autocomplete="off" required />
         </div>
-      </div>
-      <br />
-      <div>
-        <label for="scale">Seberapa sering anda merokok? atau berada di lingkungan perokok (scale 10-100 dalam presentase (%)):</label>
-        <input type="number" id="scale" name="scale" min="10" max="100" />
-      </div>
-      <br />
-      <button type="reset">reset</button>
-      <button type="submit">Submit</button>
-    </form>
+        <br />
+        <div>
+          <label for="birthDate">Tanggal Lahir</label>
+          <input type="date" id="birthDate" name="birthDate" />
+        </div>
+        <br />
+        <div>
+          <input type="radio" name="gender" value="men" id="gender1" />
+          <label for="gender1">Laki-Laki</label>
+          <input type="radio" name="gender" value="women" id="gender2" />
+          <label for="gender2">Perempuan</label>
+        </div>
+        <br />
+        <div>
+          <p>Apakah anda seorang perokok</p>
+          <div>
+            <input type="radio" name="smoker" value="smoker" id="smoker" />
+            <label for="smoker">ya</label>
+            <input type="radio" name="smoker" value="notSmoker" id="notSmoker" />
+            <label for="notSmoker">tidak</label>
+            <input type="radio" name="smoker" value="exSmoker" id="exSmoker" />
+            <label for="exSmoker">mantan perokok</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <p>Jika anda perokok, rokok apa yang sering anda gunakkan? atau yang anda sering dengar</p>
+          <div>
+            <input type="checkbox" id="gudangGaram" name="cigarette" checked />
+            <label for="gudangGaram">Gudang Garam</label>
+            <input type="checkbox" id="sampoerna" name="cigarette" />
+            <label for="sampoerna">Sampoerna</label>
+            <input type="checkbox" id="Marlboro" name="cigarette" />
+            <label for="Marlboro">Marlboro</label>
+            <input type="checkbox" id="other" name="cigarette" />
+            <label for="other">yang lain</label>
+            <input type="checkbox" id="dontKnow" name="cigarette" />
+            <label for="dontKnow">tidak tahu</label>
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="scale">Seberapa sering anda merokok? atau berada di lingkungan perokok (scale 10-100 dalam presentase (%)):</label>
+          <input type="number" id="scale" name="scale" min="10" max="100" />
+        </div>
+        <br />
+        <button type="reset">reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <br>
+    <div>
+      <a href="/table.html">kemungkinan hasil survey</a>
+    </div>
   </body>
 </html>
